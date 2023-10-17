@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ##################################################################
-# Script Name: Automation Script                                 #
-# Author     : Sc3p73R(WaiYan)                                   #
+# Script Name: Store Procedure Script                            #
+# Author     : Sc3p73R                                           #
 # Email      : sc3p73r@outlook.com                               #
 ##################################################################
 
