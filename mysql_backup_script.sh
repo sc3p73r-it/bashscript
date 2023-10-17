@@ -1,4 +1,11 @@
 #! /bin/bash
+
+##################################################################
+# Script Name: Mysql Backup Script                            #
+# Author     : Sc3p73R                                           #
+# Email      : sc3p73r@outlook.com                               #
+##################################################################
+
 DATE=`date +"%Y-%m-%d-%H:%M"`
 SQLFILE=/home/ubuntu/backups/database/${DATE}-redmine-databasedump.sql
 DATABASE=redminedb
