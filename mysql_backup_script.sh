@@ -1,7 +1,7 @@
 #! /bin/bash
 
 ##################################################################
-# Script Name: Mysql Backup Script                               #
+# Script Name: Mysql Database Backup Script                      #
 # Author     : Sc3p73R                                           #
 # Email      : sc3p73r@outlook.com                               #
 ##################################################################
