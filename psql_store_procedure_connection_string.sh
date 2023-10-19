@@ -10,7 +10,7 @@
 CONNECTION_STRING=postgresql://user:'password'@127.0.0.1:5432/db_name
 
 # Log file location
-LOG_FILE="/mnt/log.txt"
+LOG_FILE="/mnt/log.txt"      #create logfile on any location
 
 # Function to get the current timestamp
 timestamp() {
