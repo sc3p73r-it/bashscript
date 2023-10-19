@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##################################################################
-# Script Name: Store Procedure Script                            #
+# Script Name: Store Procedure Script (Remote Connection)        #
 # Author     : Sc3p73R                                           #
 # Email      : sc3p73r@outlook.com                               #
 ##################################################################
