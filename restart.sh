@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #################################################
-#      Script Name = Restart.sh			#
-#      Author Name = Sc3p73R			#
-#      Email       = sc3p73r@outlook.com 	#
+#      Script Name = Restart.sh			            #
+#      Author Name = Sc3p73R			              #
+#      Email       = sc3p73r@outlook.com 	      #
 #################################################
 
 # Specify the output file
