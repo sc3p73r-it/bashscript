@@ -7,9 +7,9 @@
 ##################################################################
 
 # PostgreSQL connection details
-PG_USER="postgres"
-PG_PASSWORD="jack123$"
-PG_DATABASE="mdg"
+PG_USER="YOUR_USER"
+PG_PASSWORD="YOUR_PASSWORD"
+PG_DATABASE="DATABASE_NAME"
 
 # Log file location
 LOG_FILE="/mnt/log.txt"

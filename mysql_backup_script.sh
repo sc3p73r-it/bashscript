@@ -8,9 +8,9 @@
 
 DATE=`date +"%Y-%m-%d-%H:%M"`
 SQLFILE=/home/ubuntu/backups/database/${DATE}-redmine-databasedump.sql
-DATABASE=redminedb
-USER=redmineuser
-PASSWORD=P@ssw0rd
+DATABASE=YOUR_Database
+USER=YOUR_USERNAME
+PASSWORD=YOUR_USERNAME
 # remove the previous version of the file
 find /home/ubuntu/backups/database/* -mmin +1 -exec rm {} \;
 
