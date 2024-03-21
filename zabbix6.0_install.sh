@@ -3,18 +3,15 @@
 # Function to install Zabbix 6.0 using a Bash script.
 install_zabbix_6.0() {
     # Add Zabbix repository key.
-    wget https://repo.zabbix.com/zabbix-official-repo.key
-    sudo apt-key add zabbix-official-repo.key
-
-    # Add Zabbix repository for Zabbix 6.0.
-    echo "deb https://repo.zabbix.com/zabbix/6.0/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/zabbix.list
-
+    wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
+    dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb
+    
     # Update package lists.
     sudo apt update
 
     # Install Zabbix server, frontend, agent, and database.
-    sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent mysql-server
-
+    sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+    
     # Create a MySQL database for Zabbix.
     sudo mysql -uroot -e "create database zabbix character set utf8 collate utf8_bin;"
     sudo mysql -uroot -e "create user zabbix@localhost identified by 'P@ssw0rd';"
