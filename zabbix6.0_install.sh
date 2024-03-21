@@ -1,5 +1,11 @@
 #!/bin/bash
 
+##################################################################
+# Script Name: Zabbix 6.0 Installation On Ubuntu 22.04 with BASH #
+# Author     : Sc3p73R                                           #
+# Email      : sc3p73r@outlook.com                               #
+##################################################################
+
 # Function to install Zabbix 6.0 using a Bash script.
 install_zabbix_6.0() {
     # Add Zabbix repository key.
