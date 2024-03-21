@@ -19,7 +19,8 @@ install_zabbix_6.0() {
     sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent -y
 
     # Install MySQL Server 
-    sudo apt install mysql-server && systemctl start mysql
+    sudo apt install mysql-server  
+    systemctl start mysql && systemctl enable mysql
     
     # Create a MySQL database for Zabbix.
     sudo mysql -uroot -e "create database zabbix character set utf8 collate utf8_bin;"
